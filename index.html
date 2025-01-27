@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="side-bar">
+            <h2 class="centered dashboard"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>view-dashboard</title>
+                    <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" fill="steelblue" />
+                </svg>Dashboard</h2>
+            <div class="first-half">
+                <a class="centered" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>home-account</title>
+                        <path
+                            d="M12,3L2,12H5V20H19V12H22L12,3M12,8.75A2.25,2.25 0 0,1 14.25,11A2.25,2.25 0 0,1 12,13.25A2.25,2.25 0 0,1 9.75,11A2.25,2.25 0 0,1 12,8.75M12,15C13.5,15 16.5,15.75 16.5,17.25V18H7.5V17.25C7.5,15.75 10.5,15 12,15Z"
+                            fill="steelblue" />
+                    </svg> Home</a>
+                <a class="centered" href="#"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>account</title>
+                        <path
+                            d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"
+                            fill="steelblue" />
+                    </svg>Profile</a>
+                <a class="centered" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>message-badge</title>
+                        <path
+                            d="M22 7V16C22 17.1 21.1 18 20 18H6L2 22V4C2 2.9 2.9 2 4 2H14.1C14 2.3 14 2.7 14 3C14 5.8 16.2 8 19 8C20.1 8 21.2 7.6 22 7M16 3C16 4.7 17.3 6 19 6S22 4.7 22 3 20.7 0 19 0 16 1.3 16 3Z"
+                            fill="steelblue" />
+                    </svg>Messages</a>
+                <a class="centered" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>history</title>
+                        <path
+                            d="M13.5,8H12V13L16.28,15.54L17,14.33L13.5,12.25V8M13,3A9,9 0 0,0 4,12H1L4.96,16.03L9,12H6A7,7 0 0,1 13,5A7,7 0 0,1 20,12A7,7 0 0,1 13,19C11.07,19 9.32,18.21 8.06,16.94L6.64,18.36C8.27,20 10.5,21 13,21A9,9 0 0,0 22,12A9,9 0 0,0 13,3"
+                            fill="steelblue" />
+                    </svg>History</a>
+                <a class="centered" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>text-box-multiple-outline</title>
+                        <path
+                            d="M16,15H9V13H16V15M19,11H9V9H19V11M19,7H9V5H19V7M3,5V21H19V23H3A2,2 0 0,1 1,21V5H3M21,1A2,2 0 0,1 23,3V17C23,18.11 22.11,19 21,19H7A2,2 0 0,1 5,17V3C5,1.89 5.89,1 7,1H21M7,3V17H21V3H7Z"
+                            fill="steelblue" />
+                    </svg>Tasks</a>
+                <a class="centered" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>account-group</title>
+                        <path
+                            d="M12,5.5A3.5,3.5 0 0,1 15.5,9A3.5,3.5 0 0,1 12,12.5A3.5,3.5 0 0,1 8.5,9A3.5,3.5 0 0,1 12,5.5M5,8C5.56,8 6.08,8.15 6.53,8.42C6.38,9.85 6.8,11.27 7.66,12.38C7.16,13.34 6.16,14 5,14A3,3 0 0,1 2,11A3,3 0 0,1 5,8M19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14C17.84,14 16.84,13.34 16.34,12.38C17.2,11.27 17.62,9.85 17.47,8.42C17.92,8.15 18.44,8 19,8M5.5,18.25C5.5,16.18 8.41,14.5 12,14.5C15.59,14.5 18.5,16.18 18.5,18.25V20H5.5V18.25M0,20V18.5C0,17.11 1.89,15.94 4.45,15.6C3.86,16.28 3.5,17.22 3.5,18.25V20H0M24,20H20.5V18.25C20.5,17.22 20.14,16.28 19.55,15.6C22.11,15.94 24,17.11 24,18.5V20Z"
+                            fill="steelblue" />
+                    </svg>Communities</a>
+            </div>
+            <div class="second-half">
+                <a class="centered" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>cog</title>
+                        <path
+                            d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z"
+                            fill="steelblue" />
+                    </svg>Settings</a>
+                <a class="centered" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>help-box-outline</title>
+                        <path
+                            d="M11 18H13V16H11V18M12 6C9.8 6 8 7.8 8 10H10C10 8.9 10.9 8 12 8S14 8.9 14 10C14 12 11 11.8 11 15H13C13 12.8 16 12.5 16 10C16 7.8 14.2 6 12 6M19 5V19H5V5H19M19 3H5C3.9 3 3 3.9 3 5V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V5C21 3.9 20.1 3 19 3Z"
+                            fill="steelblue" />
+                    </svg>Support</a>
+                <a class="centered uneven" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>shield-account-outline</title>
+                        <path
+                            d="M12,1L3,5V11C3,16.55 6.84,21.74 12,23C17.16,21.74 21,16.55 21,11V5L12,1M12,3.18L19,6.3V11.22C19,12.92 18.5,14.65 17.65,16.17C16,14.94 13.26,14.5 12,14.5C10.74,14.5 8,14.94 6.35,16.17C5.5,14.65 5,12.92 5,11.22V6.3L12,3.18M12,6A3.5,3.5 0 0,0 8.5,9.5A3.5,3.5 0 0,0 12,13A3.5,3.5 0 0,0 15.5,9.5A3.5,3.5 0 0,0 12,6M12,8A1.5,1.5 0 0,1 13.5,9.5A1.5,1.5 0 0,1 12,11A1.5,1.5 0 0,1 10.5,9.5A1.5,1.5 0 0,1 12,8M12,16.5C13.57,16.5 15.64,17.11 16.53,17.84C15.29,19.38 13.7,20.55 12,21C10.3,20.55 8.71,19.38 7.47,17.84C8.37,17.11 10.43,16.5 12,16.5Z"
+                            fill="steelblue" />
+                    </svg>Privacy</a>
+            </div>
+        </div>
+        <div class="header">
+            <div class="first-line">
+                <svg class="magnify" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>magnify</title>
+                    <path
+                        d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+                </svg>
+                <input type="text" name="search" id="search">
+                <div class="small-gap">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>bell-outline</title>
+                        <path
+                            d="M10 21H14C14 22.1 13.1 23 12 23S10 22.1 10 21M21 19V20H3V19L5 17V11C5 7.9 7 5.2 10 4.3V4C10 2.9 10.9 2 12 2S14 2.9 14 4V4.3C17 5.2 19 7.9 19 11V17L21 19M17 11C17 8.2 14.8 6 12 6S7 8.2 7 11V18H17V11Z" />
+                    </svg>
+                    <img class="logo" src="Images/logo.jpg" alt="user image">
+                    <p class="user">Ori Trabelsi</p>
+                </div>
+            </div>
+            <div class="second-line">
+                <div class="first-part">
+                    <div class="profile">
+                        <img class="logo" src="Images/logo.jpg" alt="user image">
+                        <div class="headline">
+                            <p class="greetings">Hi there,</p>
+                            <h1>Ori Trabelsi (@Harbinger)</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="second-part">
+                    <button class="btn">New</button>
+                    <button class="btn">Upload</button>
+                    <button class="btn">Share</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="board">
+            <div class="headlines">
+                <h2 class="adjust-to-left">Your Recommended Content</h2>
+                <h2 class="adjust-to-right">Announcements</h2>
+            </div>
+            <div class="contents">
+                <div class="main-content">
+                    <div class="wrapper">
+                        <div class="card card1">
+                            <p class="bolded">界の軌跡</p>
+                            <img class="card-images" src="Images/Kai cover.webp" alt="Trails image">
+                            <p class="description">The 13th and latest Trails/軌跡 game! Available now! The truth of
+                                Zemuria shall be revealed! What awaits beyond the great sky...?</p>
+                            <div class="symbols"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>star-plus-outline</title>
+                                    <path
+                                        d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" />
+                                </svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>eye-plus-outline</title>
+                                    <path
+                                        d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" />
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>share-variant-outline</title>
+                                    <path
+                                        d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" />
+                                </svg></div>
+                        </div>
+                        <div class="card">
+                            <p class="bolded">空の軌跡1st</p>
+                            <img class="card-images" src="Images/sky1st cover.png" alt="Trails image">
+                            <p class="description">A magnificent remake of the first game in the series. Roleplay as
+                                Estelle Bright and Joshua Bright as they aspire to become senior bracers!</p>
+                            <div class="symbols"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>star-plus-outline</title>
+                                    <path
+                                        d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" />
+                                </svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>eye-plus-outline</title>
+                                    <path
+                                        d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" />
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>share-variant-outline</title>
+                                    <path
+                                        d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" />
+                                </svg></div>
+                        </div>
+                        <div class="card">
+                            <p class="bolded">黎の軌跡II</p>
+                            <img class="card-images" src="Images/Kuro 2 cover 2.jpg" alt="Trails image">
+                            <p class="description">The continuation of the Calvard arc. This time uncover a sinister
+                                plot and the mystery of crimson beast!</p>
+                            <div class="symbols"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>star-plus-outline</title>
+                                    <path
+                                        d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" />
+                                </svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>eye-plus-outline</title>
+                                    <path
+                                        d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" />
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>share-variant-outline</title>
+                                    <path
+                                        d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" />
+                                </svg></div>
+                        </div>
+                        <div class="card">
+                            <p class="bolded">黎の軌跡</p>
+                            <img class="card-images" src="Images/Kuro 1 cover.jpg" alt="Trails image">
+                            <p class="description">A brand new arc featuring new protagonist Van Arkride and his
+                                associates as they combat merciless foes!</p>
+                            <div class="symbols"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>star-plus-outline</title>
+                                    <path
+                                        d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" />
+                                </svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>eye-plus-outline</title>
+                                    <path
+                                        d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" />
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>share-variant-outline</title>
+                                    <path
+                                        d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" />
+                                </svg></div>
+                        </div>
+                        <div class="card">
+                            <p class="bolded">創の軌跡</p>
+                            <img class="card-images" src="Images/reverie cover.webp" alt="Trails image">
+                            <p class="description">The end... The beginning.. The climactic ending of the first half of
+                                the franchise. explore variouse encounters using over 50 characters! Madness!</p>
+                            <div class="symbols"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>star-plus-outline</title>
+                                    <path
+                                        d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" />
+                                </svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>eye-plus-outline</title>
+                                    <path
+                                        d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" />
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>share-variant-outline</title>
+                                    <path
+                                        d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" />
+                                </svg></div>
+                        </div>
+                        <div class="card">
+                            <p class="bolded">閃の軌跡IV</p>
+                            <img class="card-images" src="Images/Cold Steel 4 cover.jpg" alt="Trails image">
+                            <p class="description">The grand finale of the Cold Steel series and my personal favorite
+                                game in the series. Witness the ending of this epic saga!</p>
+                            <div class="symbols"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>star-plus-outline</title>
+                                    <path
+                                        d="M5.8 21L7.4 14L2 9.2L9.2 8.6L12 2L14.8 8.6L22 9.2L18.8 12H18C17.3 12 16.6 12.1 15.9 12.4L18.1 10.5L13.7 10.1L12 6.1L10.3 10.1L5.9 10.5L9.2 13.4L8.2 17.7L12 15.4L12.5 15.7C12.3 16.2 12.1 16.8 12.1 17.3L5.8 21M17 14V17H14V19H17V22H19V19H22V17H19V14H17Z" />
+                                </svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>eye-plus-outline</title>
+                                    <path
+                                        d="M12,4.5C7,4.5 2.73,7.61 1,12C2.73,16.39 7,19.5 12,19.5C12.36,19.5 12.72,19.5 13.08,19.45C13.03,19.13 13,18.82 13,18.5C13,18.14 13.04,17.78 13.1,17.42C12.74,17.46 12.37,17.5 12,17.5C8.24,17.5 4.83,15.36 3.18,12C4.83,8.64 8.24,6.5 12,6.5C15.76,6.5 19.17,8.64 20.82,12C20.7,12.24 20.56,12.45 20.43,12.68C21.09,12.84 21.72,13.11 22.29,13.5C22.56,13 22.8,12.5 23,12C21.27,7.61 17,4.5 12,4.5M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9M18,14.5V17.5H15V19.5H18V22.5H20V19.5H23V17.5H20V14.5H18Z" />
+                                </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <title>share-variant-outline</title>
+                                    <path
+                                        d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12S8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5S19.66 2 18 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12S4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.34C15.11 18.55 15.08 18.77 15.08 19C15.08 20.61 16.39 21.91 18 21.91S20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08M18 4C18.55 4 19 4.45 19 5S18.55 6 18 6 17 5.55 17 5 17.45 4 18 4M6 13C5.45 13 5 12.55 5 12S5.45 11 6 11 7 11.45 7 12 6.55 13 6 13M18 20C17.45 20 17 19.55 17 19S17.45 18 18 18 19 18.45 19 19 18.55 20 18 20Z" />
+                                </svg></div>
+                        </div>
+                    </div>
+                    <div class="side-content">
+                        <div class="main-top-right-section">
+                            <div class="big-card">
+                                <p class="bolded">Trails in the Sky 1st latest feed:</p>
+                                <p class="monospaced">Trails in the sky 1st is confirmed to be released this year on the
+                                    PC, PS5, PS4 and Switch. The exact release date has yet to be affirmed.</p>
+                                <hr>
+                                <p class="bolded">Kai 2 release date rumors are surfacing online:</p>
+                                <p class="monospaced">Rumors are circulating that the sequel to the franchise
+                                    potentially Kai 2 will be released next year.</p>
+                                <hr>
+                                <p class="bolded">New milestone for the franchise:</p>
+                                <p class="monospaced">Nihon Falcom CEO, sir Toshihiro Kondo has affirmed that the whole
+                                    series has sold past the 9 million figures!</p>
+                            </div>
+                        </div>
+                        <div class="main-bottom-right-section">
+                            <h2 class="trending">Trending</h2>
+                            <div class="big-card">
+                                <div class="chunk">
+                                    <p class="user"><img class="trend-logo" src="Images/smug Estelle.jpg"
+                                            alt="">@Bestelle1252:</p>
+                                </div>
+                                <p class="trend-paragraph">
+                                Bestelle is the best female protagonist. Her growth from FC to SC is incredible
+                                and NGO... she's hilarious lmfao!</p>
+
+                                <div class="chunk">
+                                    <p class="user"><img class="trend-logo" src="Images/Van-logo.avif"
+                                            alt="">@Yo_Van_Yo:</p>
+                                </div>
+                                <p class="trend-paragraph"> I cannot wait for more interactions between Van, Crow
+                                and Aaron legit excited brah!</p>
+
+
+                                <div class="chunk">
+                                    <p class="user"><img class="trend-logo" src="Images/Trails of Zemuria logo.jpg">
+                                        @TrailsofZemuria/Aibou-Dono:</p>
+                                </div> 
+                                <p class="trend-paragraph">This series means to me so much!
+                                The characters are just fascinating and the world building is just top notch!!!
+                                </p>
+
+
+                                <div class="chunk">
+                                    <p class="user"><img class="trend-logo" src="Images/nicoB-logo.jpg">@NicoB:</p>
+                                </div>
+                                <p class="trend-paragraph"> I have to say... Trails is really getting to me.. I
+                                didn't think I would enjoy it so much. Look forward to many more playthroughs of
+                                Trails <span id="picky-pinguins">picky pinguins!</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
